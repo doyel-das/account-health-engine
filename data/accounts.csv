@@ -1,0 +1,13 @@
+account_id,account_name,segment,arr,csm,renewal_date,days_to_renewal,login_freq_per_wk,feature_adoption_pct,support_tickets_per_mo,days_since_engagement,onboarding_completion_pct,nps_raw,csm_pulse
+ACC001,Midwest Health System,enterprise,480000,M. Okafor,2026-07-15,22,0.21,24.0,2.98,17,100,2.1,
+ACC002,Valley Medical Group,enterprise,310000,R. Mehta,2026-08-30,68,0.35,,1.83,11,93.5,4.5,
+ACC003,Coastal Physician Partners,smb,85000,A. Diallo,2026-08-06,44,0.62,51.0,1.49,6,80.0,6.7,
+ACC004,Summit Regional Health,enterprise,275000,A. Diallo,2026-10-13,112,0.7,54.7,0.93,4,88.2,7.3,
+ACC005,Northern Integrated Care,smb,72000,R. Mehta,2026-12-20,180,0.83,89.6,0.52,2,97.5,7.1,4
+ACC006,Lakewood Hospitalist Group,smb,55000,M. Okafor,2027-01-19,210,1.07,51.3,0.92,3,83.5,9,
+ACC007,Pacific Academic Medical Ctr,enterprise,620000,A. Diallo,2026-09-26,95,0.77,67.9,0.55,2,100,8.2,
+ACC008,Tri-County Urgent Care,smb,48000,A. Diallo,2026-07-08,15,0.19,31.3,3.43,16,88.8,1.8,1
+ACC009,Heartland Health Network,enterprise,390000,R. Mehta,2026-08-22,60,0.48,54.2,1.56,7,82.9,5.4,3
+ACC010,Blue Ridge Medical Partners,smb,63000,J. Rivera,2026-11-10,140,0.66,53.2,1.0,4,90.1,,4
+ACC011,Metro Surgical Associates,smb,41000,J. Rivera,2026-07-23,30,0.41,38.1,2.2,12,96.7,3.6,2
+ACC012,Cascade Regional Hospital,enterprise,510000,R. Mehta,2027-01-09,200,0.93,77.9,0.46,2,82.6,8.6,

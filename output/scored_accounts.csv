@@ -1,0 +1,13 @@
+account_id,account_name,segment,csm,arr,days_to_renewal,health_score,tier,urgency_score,overrides,intervention
+ACC008,Tri-County Urgent Care,smb,A. Diallo,48000.0,15,34.7,Red,-20.3,Renewal within 30 days and score below 70; Red account renewing within 90 days; Silent churn: login frequency below 0.5/wk and 14+ days since engagement; CSM pulse = 1 (churn language reported),CSM Pulse override (churn language): treat as Red. Schedule an executive sponsor call within 48 hours regardless of score or renewal date.
+ACC001,Midwest Health System,enterprise,M. Okafor,480000.0,22,35.9,Red,-19.1,Renewal within 30 days and score below 70; Red account renewing within 90 days; Silent churn: login frequency below 0.5/wk and 14+ days since engagement,Silent churn override: map all stakeholders across the account and re-engage via phone or in-person outreach only — do not rely on email.
+ACC011,Metro Surgical Associates,smb,J. Rivera,41000.0,30,46.5,Red,-8.5,Renewal within 30 days and score below 70,"Override active with renewal in ≤30 days: same-day escalation, loop in the CS leader, do not rely on email. Save rate inside 30 days of renewal is below 18%."
+ACC009,Heartland Health Network,enterprise,R. Mehta,390000.0,60,53.8,Yellow,38.8,,Yellow: proactive outreach within 5 business days and a feature adoption audit.
+ACC003,Coastal Physician Partners,smb,A. Diallo,85000.0,44,56.6,Yellow,41.6,,Yellow: proactive outreach within 5 business days and a feature adoption audit.
+ACC002,Valley Medical Group,enterprise,R. Mehta,310000.0,68,51.4,Yellow,46.4,,Yellow: proactive outreach within 5 business days and a feature adoption audit.
+ACC010,Blue Ridge Medical Partners,smb,J. Rivera,63000.0,140,60.7,Yellow,60.7,,Yellow: proactive outreach within 5 business days and a feature adoption audit.
+ACC004,Summit Regional Health,enterprise,A. Diallo,275000.0,112,63.8,Yellow,63.8,,Yellow: proactive outreach within 5 business days and a feature adoption audit.
+ACC006,Lakewood Hospitalist Group,smb,M. Okafor,55000.0,210,66.4,Yellow,66.4,,Yellow: proactive outreach within 5 business days and a feature adoption audit.
+ACC007,Pacific Academic Medical Ctr,enterprise,A. Diallo,620000.0,95,72.1,Green,72.1,,Green: maintain current cadence and monitor for drift.
+ACC012,Cascade Regional Hospital,enterprise,R. Mehta,510000.0,200,73.7,Green,73.7,,Green: maintain current cadence and monitor for drift.
+ACC005,Northern Integrated Care,smb,R. Mehta,72000.0,180,74.0,Green,74.0,,Green: maintain current cadence and monitor for drift.

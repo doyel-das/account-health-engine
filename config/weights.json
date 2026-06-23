@@ -1,0 +1,90 @@
+{
+  "score_bands": {
+    "red": [0, 40],
+    "yellow": [41, 70],
+    "green": [71, 100]
+  },
+  "normalization": {
+    "login_freq_per_wk": {"type": "linear", "min": 0, "max": 3},
+    "feature_adoption_pct": {"type": "percent"},
+    "support_tickets_per_mo": {"type": "inverted_linear", "min": 0, "max": 5},
+    "days_since_engagement": {"type": "inverted_linear", "min": 0, "max": 30},
+    "onboarding_completion_pct": {"type": "percent"},
+    "nps_raw": {"type": "linear", "min": 0, "max": 10},
+    "csm_pulse": {"type": "linear", "min": 1, "max": 5}
+  },
+  "segments": {
+    "enterprise": {
+      "login_freq_per_wk": {"weight": 15, "available": true},
+      "feature_adoption_pct": {"weight": 15, "available": true},
+      "support_tickets_per_mo": {"weight": 10, "available": true},
+      "days_since_engagement": {"weight": 10, "available": true},
+      "onboarding_completion_pct": {"weight": 10, "available": true},
+      "nps_raw": {"weight": 10, "available": true},
+      "csm_pulse": {"weight": 30, "available": true}
+    },
+    "smb": {
+      "login_freq_per_wk": {"weight": 25, "available": true},
+      "feature_adoption_pct": {"weight": 20, "available": true},
+      "support_tickets_per_mo": {"weight": 15, "available": true},
+      "days_since_engagement": {"weight": 15, "available": true},
+      "onboarding_completion_pct": {"weight": 15, "available": true},
+      "nps_raw": {"weight": 10, "available": true},
+      "csm_pulse": {"weight": 0, "available": false}
+    }
+  },
+  "profiles": {
+    "renewal_push": {
+      "description": "Upweights renewal-risk signals (days since engagement, support volume) ahead of a renewal motion.",
+      "enterprise": {
+        "login_freq_per_wk": {"weight": 12, "available": true},
+        "feature_adoption_pct": {"weight": 12, "available": true},
+        "support_tickets_per_mo": {"weight": 15, "available": true},
+        "days_since_engagement": {"weight": 20, "available": true},
+        "onboarding_completion_pct": {"weight": 8, "available": true},
+        "nps_raw": {"weight": 8, "available": true},
+        "csm_pulse": {"weight": 25, "available": true}
+      },
+      "smb": {
+        "login_freq_per_wk": {"weight": 18, "available": true},
+        "feature_adoption_pct": {"weight": 15, "available": true},
+        "support_tickets_per_mo": {"weight": 20, "available": true},
+        "days_since_engagement": {"weight": 20, "available": true},
+        "onboarding_completion_pct": {"weight": 17, "available": true},
+        "nps_raw": {"weight": 10, "available": true},
+        "csm_pulse": {"weight": 0, "available": false}
+      }
+    },
+    "new_account_onboarding": {
+      "description": "Upweights onboarding completion and feature adoption to surface early-lifecycle risk.",
+      "enterprise": {
+        "login_freq_per_wk": {"weight": 10, "available": true},
+        "feature_adoption_pct": {"weight": 22, "available": true},
+        "support_tickets_per_mo": {"weight": 8, "available": true},
+        "days_since_engagement": {"weight": 8, "available": true},
+        "onboarding_completion_pct": {"weight": 30, "available": true},
+        "nps_raw": {"weight": 7, "available": true},
+        "csm_pulse": {"weight": 15, "available": true}
+      },
+      "smb": {
+        "login_freq_per_wk": {"weight": 15, "available": true},
+        "feature_adoption_pct": {"weight": 25, "available": true},
+        "support_tickets_per_mo": {"weight": 10, "available": true},
+        "days_since_engagement": {"weight": 10, "available": true},
+        "onboarding_completion_pct": {"weight": 30, "available": true},
+        "nps_raw": {"weight": 10, "available": true},
+        "csm_pulse": {"weight": 0, "available": false}
+      }
+    }
+  },
+  "overrides": {
+    "renewal_score_threshold": {"renewal_days_at_most": 30, "score_below": 70},
+    "red_renewal_window_days": 90,
+    "silent_churn": {"login_freq_below": 0.5, "days_since_engagement_at_least": 14},
+    "csm_pulse_churn_language": 1
+  },
+  "nps_proxy": {
+    "days_since_engagement_at_least": 14,
+    "proxy_value": 2.0
+  }
+}

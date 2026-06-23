@@ -1,0 +1,52 @@
+account_id,user_name,role,role_type,logins_per_wk,days_since_active,nps
+ACC001,Wei Chen,Chief Medical Officer,executive,0.1,21,1.9
+ACC001,Carlos Hassan,Hospitalist,clinician,0.21,16,2.2
+ACC001,David Nguyen,Emergency Medicine,clinician,0.18,19,2.2
+ACC002,Raj Nguyen,Chief Medical Officer,executive,0.07,22,4.2
+ACC002,Carlos Nguyen,Hospitalist,clinician,0.34,11,4.1
+ACC002,Sarah Hassan,Emergency Medicine,clinician,0.4,11,4.6
+ACC002,James Zhang,IT/Admin,admin,0.37,10,4.3
+ACC003,Layla Kim,Chief Medical Officer,executive,0.61,6,6.4
+ACC003,James Zhang,Hospitalist,clinician,0.62,6,7.4
+ACC003,James Santos,Emergency Medicine,clinician,0.56,6,6.9
+ACC003,Anita Patel,IT/Admin,admin,0.64,6,6.2
+ACC003,Lin Nguyen,Emergency Medicine,clinician,0.7,6,5.9
+ACC004,Soo-Jin Tanaka,Chief Medical Officer,executive,0.7,4,7.0
+ACC004,Mai Williams,Hospitalist,clinician,0.66,3,8.1
+ACC004,Raj Mehta,Emergency Medicine,clinician,0.75,4,8.3
+ACC005,Maria Mehta,Chief Medical Officer,executive,0.88,2,6.2
+ACC005,Maria Nguyen,Hospitalist,clinician,0.79,2,6.6
+ACC005,Amara Chen,Emergency Medicine,clinician,0.84,2,7.9
+ACC005,Soo-Jin Diallo,IT/Admin,admin,0.77,2,6.9
+ACC005,Raj Mehta,Hospitalist,clinician,0.87,2,6.9
+ACC006,Raj Al-Rashid,Chief Medical Officer,executive,1.15,3,8.7
+ACC006,Amara Chen,Hospitalist,clinician,1.19,3,8.1
+ACC006,Maria Patel,Emergency Medicine,clinician,0.99,3,8.9
+ACC006,Anita Hassan,IT/Admin,admin,1.22,3,9.2
+ACC006,Layla Diallo,Chief Medical Officer,executive,0.96,3,10
+ACC007,Omar Webb,Chief Medical Officer,executive,0.7,2,7.6
+ACC007,Anita Rivera,Hospitalist,clinician,0.81,2,7.7
+ACC007,David Al-Rashid,Emergency Medicine,clinician,0.67,2,9.4
+ACC007,Raj Mehta,IT/Admin,admin,0.78,2,7.3
+ACC007,Kenji Al-Rashid,Emergency Medicine,clinician,0.67,2,7.7
+ACC008,Sarah Al-Rashid,Chief Medical Officer,executive,0.14,22,1.9
+ACC008,Mai Webb,Hospitalist,clinician,0.16,15,1.6
+ACC008,Sarah Rivera,Emergency Medicine,clinician,0.2,16,1.8
+ACC008,Maria Mehta,IT/Admin,admin,0.17,18,2.0
+ACC009,Maria Rivera,Chief Medical Officer,executive,0.51,7,6.1
+ACC009,David Santos,Hospitalist,clinician,0.53,8,5.0
+ACC009,David Hassan,Emergency Medicine,clinician,0.42,8,6.0
+ACC009,Wei Chen,IT/Admin,admin,0.53,7,5.1
+ACC010,Soo-Jin Zhang,Chief Medical Officer,executive,0.58,4,
+ACC010,Wei Webb,Hospitalist,clinician,0.57,4,
+ACC010,Lin Al-Rashid,Emergency Medicine,clinician,0.72,4,
+ACC010,Layla Hassan,IT/Admin,admin,0.69,4,
+ACC011,Wei Patel,Chief Medical Officer,executive,0.13,26,3.4
+ACC011,Amara Diallo,Hospitalist,clinician,0.43,12,3.9
+ACC011,David Hassan,Emergency Medicine,clinician,0.37,11,3.6
+ACC011,Carlos Kim,IT/Admin,admin,0.39,13,3.9
+ACC012,Maria Zhang,Chief Medical Officer,executive,0.86,2,8.5
+ACC012,David Diallo,Hospitalist,clinician,0.98,2,8.8
+ACC012,David Al-Rashid,Emergency Medicine,clinician,0.91,2,9.6
+ACC012,Anita Nguyen,IT/Admin,admin,1.04,2,7.7
+ACC012,Mai Diallo,IT/Admin,admin,0.92,2,9.5
