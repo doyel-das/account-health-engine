@@ -10,6 +10,13 @@ intervention emails.
 This is a rule-based engine, not a machine learning model — every score and
 recommendation is traceable to a specific input and a specific rule.
 
+**Live demo:** [doyel-das.github.io/account-health-engine](https://doyel-das.github.io/account-health-engine/)
+— a static snapshot of `output/health_report.html` served via GitHub Pages.
+The "Draft intervention email" button on the Accounts tab calls the Anthropic
+API directly from your browser; it will prompt for your own API key (stored
+only in your browser's `localStorage`, never sent anywhere but Anthropic) —
+no key is bundled in the page.
+
 ## What it does
 
 - Reads accounts from `data/accounts.csv` (or a SQLite database for richer detail)
